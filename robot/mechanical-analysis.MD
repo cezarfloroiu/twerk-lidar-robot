@@ -6,7 +6,7 @@ If it weighs 10oz then the arms should not be longer than 5 inches. That's too l
 
 Which you would think is plenty but my real robot it was weak and it weighs 10.7oz.
 
-<img src="../devlog/media/12-31-2021--old-robot-measurement.png" width="500">
+<img src="../repo-images/12-31-2021--old-robot-measurement.png" width="500">
 
 Oh... I did have a thought, when it's moving it will be on 3 legs usually. So the torque might get up to 3.3oz or more.
 

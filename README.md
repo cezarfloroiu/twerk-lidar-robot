@@ -1,11 +1,16 @@
 ### Twerk Lidar Robot
 A robot that utilizes onboard IMU and single-point lidar to navigate the world
 
-<img src="./devlog/media/01-09-2022--better.JPG" width="800">
+<img src="./repo-images/01-09-2022--better.JPG" width="800">
+
+### What is it
+<img src="./repo-images/01-20-2022--scanning-pattern-slowed-down.gif">
+
+Note: this is slowed down and there is no visible laser on the actual robot.
 
 ### Sensors
 
-<img src="./devlog/media/01-09-2022--imu-and-sensor.png" width="800">
+<img src="./repo-images/01-09-2022--imu-and-sensor.png" width="800">
 
 ### Schematic
 
