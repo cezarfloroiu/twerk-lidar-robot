@@ -3,6 +3,9 @@ A robot that utilizes onboard IMU and single-point lidar to navigate the world
 
 <img src="./repo-images/01-09-2022--better.JPG" width="800">
 
+### Project status
+In progress, about 60% complete.
+
 ### What is it
 <img src="./repo-images/01-20-2022--scanning-pattern-slowed-down.gif">
 
