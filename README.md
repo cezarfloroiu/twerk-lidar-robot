@@ -19,6 +19,17 @@ Note: this is slowed down and there is no visible laser on the actual robot.
 
 <img src="./misc/crayon-circuit-3.png" width="800">
 
+### Unit cost estimate: $100+
+This is a breakdown of the most expensive stuff on the robot. Does not include the little 3.3V regulator, the 3D printer itself, filament, proto-board, wire, etc...
+
+* $24.00 - 12 x 9g servos
+* $20.00 - Teensy 4.0
+* $14.00 - MPU-9250
+* $14.00 - MPS mEZD41503A-A 5V @ 3A DC/DC converter
+* $11.00 - ToF sensor
+* $10.00 - NCR 18650B 3.4 Ah 4.9A Protected Button Top Battery
+* $3.25 - ESP-01
+
 ### Disclaimer
 While I have provided everything you need to make this robot, it is not intended to be rebuilt. It is too much of a pain, particularly the board soldering. Also arguable it is a waste of a Teensy 4.0 but I wanted to use one.
 
@@ -46,6 +57,3 @@ Pretty much anything brittle/small will be 30% or a major structural piece like 
 
 ### Misc
 This project borrows from my [first robot](https://github.com/jdc-cunningham/not-quite-an-ant-robot) with regard to how code is written.
-
-### Note
-This repo is pretty big due to the media, I will look into not tracking them by default so when you clone it, you only pull down code.
