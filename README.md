@@ -1,23 +1,26 @@
 ### Twerk Lidar Robot
 A robot that utilizes onboard IMU and single-point lidar to navigate the world
 
-<img src="./repo-images/01-09-2022--better.JPG" width="800">
+<img src="./repo-images/01-09-2022--better.JPG" width="800"/>
 
 ### Project status
 In progress, about 60% complete.
 
 ### What is it
-<img src="./repo-images/01-20-2022--scanning-pattern-slowed-down.gif">
+<img src="./repo-images/01-20-2022--scanning-pattern-slowed-down.gif"/>
 
-Note: this is slowed down and there is no visible laser on the actual robot.
+Note: due to the `ToF` sampling rate, the robot moves slower than this while sampling
+
+Example depth map:
+<img src="./repo-images/02-18-2022--mesh-plot.PNG"/>
 
 ### Sensors
 
-<img src="./repo-images/01-09-2022--imu-and-sensor.png" width="800">
+<img src="./repo-images/01-09-2022--imu-and-sensor.png" width="800"/>
 
 ### Schematic
 
-<img src="./misc/crayon-circuit-3.png" width="800">
+<img src="./misc/crayon-circuit-3.png" width="800"/>
 
 ### Unit cost estimate: $100+
 This is a breakdown of the most expensive stuff on the robot. Does not include the little 3.3V regulator, the 3D printer itself, filament, proto-board, wire, etc...
@@ -30,8 +33,8 @@ This is a breakdown of the most expensive stuff on the robot. Does not include t
 * $10.00 - NCR 18650B 3.4 Ah 4.9A Protected Button Top Battery
 * $3.25 - ESP-01
 
-### Disclaimer
-While I have provided everything you need to make this robot, it is not intended to be rebuilt. It is too much of a pain, particularly the board soldering. Also arguable it is a waste of a Teensy 4.0 but I wanted to use one.
+### Disclaimer - do not reproduce this project
+While I have provided everything you need to make this robot, it is not intended to be rebuilt. This project suffers from mathematical inaccuracy both in the physical dimensions, sensor accuracy and math. It was a good learning tool but this project is still a toy/not reliable to work autonomously.
 
 ### Development environment
 
