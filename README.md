@@ -34,7 +34,9 @@ This is a breakdown of the most expensive stuff on the robot. Does not include t
 * $3.25 - ESP-01
 
 ### Disclaimer - do not reproduce this project
-While I have provided everything you need to make this robot, it is not intended to be rebuilt. This project suffers from mathematical inaccuracy both in the physical dimensions, sensor accuracy and math. It was a good learning tool but this project is still a toy/not reliable to work autonomously.
+While I have provided everything you need to make this robot, it is not intended to be rebuilt. This project suffers from mathematical inaccuracy both in the physical design and sensor accuracy. It was a good learning tool but this project is still a toy/not reliable to work autonomously.
+
+TL;DR you buy cheap stuff you get cheap performance.
 
 ### Development environment
 
