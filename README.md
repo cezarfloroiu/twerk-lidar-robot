@@ -3,8 +3,11 @@ A robot that utilizes onboard IMU and single-point lidar to navigate the world
 
 <img src="./repo-images/01-09-2022--better.JPG" width="800"/>
 
-### Project status
-In progress, about 60% complete.
+### Project status (incomplete)
+
+`development-3` - current branch
+
+`development` - used hardcoded servo positions/gaits
 
 ### What is it
 <img src="./repo-images/05-11-2022--example-scan-box-plot.gif" width="800"/>
