@@ -12,8 +12,6 @@ A robot that utilizes onboard IMU and single-point lidar to navigate the world
 ### What is it
 <img src="./repo-images/05-11-2022--example-scan-box-plot.gif" width="800"/>
 
-Note: due to the `ToF` sampling rate, the robot moves slower than this while sampling
-
 Example depth map:
 <img src="./repo-images/02-18-2022--mesh-plot.PNG" width="800"/>
 
