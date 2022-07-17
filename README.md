@@ -1,6 +1,10 @@
 ### Twerk Lidar Robot
 A robot that utilizes onboard IMU and single-point lidar to navigate the world
 
+#### With actual Lidar
+<img src="./repo-images/07-17-2022--new-set-of-eyes.JPG" width="800"/>
+
+#### Initial sensor setup
 <img src="./repo-images/01-09-2022--better.JPG" width="800"/>
 
 ### Project status (incomplete)
@@ -33,6 +37,7 @@ This is a breakdown of the most expensive stuff on the robot. Does not include t
 * $11.00 - ToF sensor
 * $10.00 - NCR 18650B 3.4 Ah 4.9A Protected Button Top Battery
 * $3.25 - ESP-01
+* $40.00 - TFMini-s Lidar
 
 ### Disclaimer - do not reproduce this project
 While I have provided everything you need to make this robot, it is not intended to be rebuilt. This project suffers from mathematical inaccuracy both in the physical design and sensor accuracy. It was a good learning tool but this project is still a toy/not reliable to work autonomously.
@@ -43,11 +48,13 @@ TL;DR you buy cheap stuff you get cheap performance.
 
 This was developed using Teensyduino so all of the libraries need to be installed there in order for the code to compile.
 ### Libraries used through Teensyduino IDE library search
-* IMU MPU9250 (Bolderflight set, check Readme in case more added)
+* (I2C) IMU MPU9250 (Bolderflight set, check Readme in case more added)
   * MPU9250
   * Eigen
   * Units
-* ToF vl53l0x by Pololu
+* (I2C) ToF vl53l0x by Pololu
+
+The TFmini-s is using raw serial
 
 ### Related software for this project
 * Google SketchUp for the 3D modeling
