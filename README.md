@@ -37,7 +37,10 @@ This is a breakdown of the most expensive stuff on the robot. Does not include t
 * $11.00 - ToF sensor
 * $10.00 - NCR 18650B 3.4 Ah 4.9A Protected Button Top Battery
 * $3.25 - ESP-01
+
+Upgrades (extra cost)
 * $40.00 - TFMini-s Lidar
+* $120 - 12 x MG90D metal gear servos
 
 ### Disclaimer - do not reproduce this project
 While I have provided everything you need to make this robot, it is not intended to be rebuilt. This project suffers from mathematical inaccuracy both in the physical design and sensor accuracy. It was a good learning tool but this project is still a toy/not reliable to work autonomously.
