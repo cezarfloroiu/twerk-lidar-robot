@@ -9,7 +9,8 @@ A robot that utilizes onboard IMU and single-point lidar to navigate the world
 
 ### Project status (incomplete)
 
-`dev-3` - active development branch
+`dev3` - active development branch
+`dev4` - switch to MG90D servos 
 
 ### What is it
 <img src="./repo-images/05-11-2022--example-scan-box-plot.gif" width="800"/>
